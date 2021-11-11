@@ -1,4 +1,4 @@
-# README
+# Project proposal and initial analyses
 
 
 ### ABSTRACT 
