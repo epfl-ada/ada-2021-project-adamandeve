@@ -1,5 +1,4 @@
-# A COMMUNICATION CRISIS ?
-Inequalities in media representation through quotes
+# A COMMUNICATION CRISIS ? Inequalities in media representation through quotes
 
 
 ### ABSTRACT 
