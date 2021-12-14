@@ -43,8 +43,7 @@ Another additional dataset that we will use is the wikidata, which provides meta
 
 The first step of our project will be to perform clusterization of quotations. We can systematize quotations based on the subject of discussion and split quotations into meaningful groups, such as business, entertainment, politics, sport and tech. So, the goal here is to perform clustering and assign each quote to a specific group based on its content. To do this, we will use the transfer learning paradigm - perform supervised learning - train a ML pipeline to classify a labelled dataset of BBC news and then apply this trained model to clusterize our quotes. As a Machine Learning method we will try different algorithms such as random forest, logistic regression, k neighbors classifier and naive bayes classifier in order to select the one giving the best performance. 
 After clusterization we will perform analysis of our results using descriptive statistics. To do so, we will explore the distribution, compute the mean, variance, median and quartiles. We will also assess the significance of our results using p-value hypothesis testing. A regression analysis will be performed on the attributes of the speakers in order to reveal the possible correlation between them
-
-
+In a final step, we will perform a linear regression to predict the proportion of underrepresented speakers in 2020. This mean that we will train our model on the quotes and speakers from 2015 to 2019, make a prediction of the proportion of quoted minorities and women and compare it to the actual proportions recorded for 2020. 
 
 ### PROPOSED TIMELINE 
 26 november - 17 december 
