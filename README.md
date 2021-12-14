@@ -1,4 +1,5 @@
-# Project proposal and initial analyses
+# A COMMUNICATION CRISIS ?
+Inequalities in media representation through quotes
 
 
 ### ABSTRACT 
@@ -40,7 +41,7 @@ Another additional dataset that we will use is the wikidata, which provides meta
 
 ### METHODS
 
-The first step of our project will be to perform clusterization of quotations. We can systematize quotations based on the subject of discussion and split quotations into meaningful groups, such as business, entertainment, politics, sport and tech. So, the goal here is to perform clustering and assign each quotation to a specific group based on its content. To do this, we will use the transfer learning paradigm - perform supervised learning - train ML pipeline to classify a labelled dataset of BBC news and then apply this trained model to clusterize our quotations. As a Machine Learning method we will try different algorithms such as random forest, logistic regression, k neighbors classifier and naive bayes classifier in order to select the one giving the best performance. 
+The first step of our project will be to perform clusterization of quotations. We can systematize quotations based on the subject of discussion and split quotations into meaningful groups, such as business, entertainment, politics, sport and tech. So, the goal here is to perform clustering and assign each quote to a specific group based on its content. To do this, we will use the transfer learning paradigm - perform supervised learning - train a ML pipeline to classify a labelled dataset of BBC news and then apply this trained model to clusterize our quotes. As a Machine Learning method we will try different algorithms such as random forest, logistic regression, k neighbors classifier and naive bayes classifier in order to select the one giving the best performance. 
 After clusterization we will perform analysis of our results using descriptive statistics. To do so, we will explore the distribution, compute the mean, variance, median and quartiles. We will also assess the significance of our results using p-value hypothesis testing. A regression analysis will be performed on the attributes of the speakers in order to reveal the possible correlation between them
 
 
@@ -79,40 +80,35 @@ After clusterization we will perform analysis of our results using descriptive s
 
  ### ORGANISATION WITHIN THE TEAM 
 
-##### TASK 1 : 30 November-5 December 
+##### TASK 1 : Training of the machine learning model
 
-* reorganization of the data :   Fanny and Justine 
-* visualization of the data :  Kseniia and Filippo 
-* statistical analysis :  Kseniia and Filippo 
-* analysis of the results :  Fanny and Justine 
+* Training of multiple models : Justine 
+* analysis of the results :  Justine 
 
 
-###### TASK 2 : 5-10 December  
-* categorization of the speakers and find occurence : Justine and Filippo 
-* Classify across the different news sources (and demographic groups) : Fanny and Kseniia 
-* visualization of the data : Fanny and Kseniia 
-* statistical analysis : Fanny and Kseniia 
-* Analysis of the results :  Justine and Filippo 
-
-##### TASK 3 : 10-14  December
- 
-* overall analysis of the results: the entire team 
-
-##### TASK 4 : 14-17 December 
-
-* writing of the Data Story  : Fanny and Filippo 
-* update of the ReadME file :  Justine and Kseniia 
-* cleaning of the code : Justien and Kseniia 
+###### TASK 2 : Generation of labels for QuoteBank Dataset 
+* Assessment of doc2vec and TFiDF matrix: Filippo
+* Application of logistic regression model : Filippo 
+* Classify across the different news sources (and demographic groups) : Filippo 
+* visualization of the data : Filippo 
 
 
+##### TASK 3 : Categorization of the speakers
+* Age analysis: Fanny
+* Gender analysis: Justine
+* Nationality analysis: Filippo
+* overall analysis of the results: Justine, Fanny, Filippo, Kseniia
+
+##### TASK 4 : Prediction for the main two news sources with distinct political bias
+* Age, gender and nationality predictions: Fanny and Filippo
+
+##### TASK 5 : Presentation and Data story
+* writing of the Data Story  : Kseniia 
+* Presentation of notebook: Fanny
+* update of the ReadME file :  Justine
+* cleaning of the code : Justine, Fanny, Filippo, Kseniia 
 
 
 
-### QUESTIONS FOR TAS 
-
-Is an interactive map feasible where you can select a country and, according to the speaker’s nationality, it will display the mean age and most represented gender of the speakers ? Also with a time scale (select the time from 2015 to 2020 to be able to see the evolution ) ? 
-
-
-As we dropped many speakers by cleaning the Wikidataset, we aim to still consider the future results of our study representative of the representation of different types of speakers in the worldwide press. Is this a wrong assumption ?
 
 
