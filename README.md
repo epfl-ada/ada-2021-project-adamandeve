@@ -32,6 +32,10 @@ Does this mean age variates significantly according to the different topics ?
 Is there an overall difference across the news sources regarding the most represented type of population ? 
 
 
+How did two of the most polarized news sources do in terms of diverse speakers? Did they do better or worse than expected in 2020?
+
+
+Which of the two news sources made more progress in terms of diversity in the quoted speakers?
 
 ### PROPOSED ADDITIONAL DATASETS 
 
