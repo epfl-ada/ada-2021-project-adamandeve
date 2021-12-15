@@ -95,7 +95,7 @@ In a final step, we will perform a linear regression to predict the proportion o
 * Age analysis: Fanny
 * Gender analysis: Justine
 * Nationality analysis: Filippo
-* overall analysis of the results: Justine, Fanny, Filippo, Kseniia
+* overall analysis of the results: Justine, Fanny, Filippo
 
 ##### TASK 4 : Prediction for the main two news sources with distinct political bias
 * Age, gender and nationality predictions: Fanny and Filippo
@@ -104,7 +104,7 @@ In a final step, we will perform a linear regression to predict the proportion o
 * writing of the Data Story  : Kseniia 
 * Presentation of notebook: Fanny
 * update of the ReadME file :  Justine
-* cleaning of the code : Justine, Fanny, Filippo, Kseniia 
+* cleaning of the code : Justine, Fanny
 
 
 
