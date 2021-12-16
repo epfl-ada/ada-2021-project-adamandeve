@@ -65,18 +65,18 @@ In a final step, we will perform a linear regression to predict the proportion o
 ##### TASK 2 : 5-10 December 
 
 * categorization of the speakers regarding : gender (female or male) , age (18-30, 30-50, > 50), nationality using Wikidata 
-* find occurrence within each category of speaker from 2015 to 2020  
-* Classify across the different news sources 
-* visualization of the data : curve evolution of mean age of speaker for each topics + across news sources / evolution of the main represented nationalities for the different news sources /  representation of the main represented speaker characteristics across time 
-* statistical analysis : Is there a correlation between represented population (age and nationality) and news sources / Is the evolution from 2015 to 2020 of the main represented speaker for each topic significant ? 
-* Analysis of the results 
+* find occurrence within each category of speaker from 2015 to 2020   
+* visualization of the data : age, gender and nationalities overall distributions, distribution across topics and evolution over time
+* Analysis of the results : the most represented type of speaker across topics
 
 ##### TASK 3 : 10-14  December
  
+* prediction for minorities according to gender, age and nationalities for two main news sources with different political bias : Breitbart and MSN  
 * overall analysis of the results : accuracy, meaning, consequences
 
 ##### TASK 4 : 14-17 December 
 * writing of the Data Story 
+* Notebook presentation 
 * update of the ReadME file 
 * cleaning of the code 
 
@@ -111,6 +111,4 @@ In a final step, we will perform a linear regression to predict the proportion o
 * cleaning of the code : Justine, Fanny
 
 
-
-
-
+Link to our website to find the DataStory : https://kseniiasshevchenko.github.io/ADAsite/
