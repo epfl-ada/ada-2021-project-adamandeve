@@ -96,6 +96,7 @@ In a final step, we will perform a linear regression to predict the proportion o
 
 
 ##### TASK 3 : Categorization of the speakers
+* writing of the functions for analysis and visualization: Fanny, Kseniia
 * Age analysis: Fanny
 * Gender analysis: Justine
 * Nationality analysis: Filippo
